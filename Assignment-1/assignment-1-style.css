@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+thead th {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+td, th {
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Add color for each day */
+.mon {
+    background-color: #f8c471;
+}
+
+.tue {
+    background-color: #76d7c4;
+}
+
+.wed {
+    background-color: #f7dc6f;
+}
+
+.thurs {
+    background-color: #85c1e9;
+}
+
+.fri {
+    background-color: #f1948a;
+}
+
+/* Color for hours column */
+.hours {
+    background-color: #d5dbdb;
+    font-weight: bold;
+}
+
+/* Lunch row style */
+.lunch {
+    font-weight: bold;
+    text-align: center;
+    background-color: #e59866;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Additional styles for subjects */
+.science {
+    background-color: #e6b0aa;
+}
+
+.social {
+    background-color: #a9cce3;
+}
